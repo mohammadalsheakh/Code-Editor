@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+}
+#name{
+    float: left;
+    line-height: 100px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+
+}
+#mohammadimage{
+    height: 70px;
+    width: 70px;
+    object-fit: scale-down;
+    float: right;
+    border-radius: 50%;
+    margin: 20px 50px 0px 0px;
+    cursor: pointer;
+    
+
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+    
+}
+#main1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    
+}
+#code{
+    width: 95%;
+    height: 300px;
+    border-radius: 13px;
+    border: solid 2px black;
+    outline: none;
+
+}
+#main2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons{
+    width: 47%;
+    height: 50px;
+    max-width: 250px;
+    margin-top: 10px;
+    border-radius: 16px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+#play{
+    background-color: rgba(15, 13, 13, 0.801);
+}
+#delete{
+    background-color:rgba(255, 0, 0, 0.815);
+}
+
+#main3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+#results{
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+#codeResults{
+    max-width: 100%; 
+}
